@@ -35,10 +35,16 @@ button {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.white-studio {
-  color: #ffffff;
+.logotype-footer {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1,192;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #ffffff;
 }
-
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -48,6 +54,9 @@ button {
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
+  color: var(--accent-color);
+}
+.navigation-list-link.current {
   color: var(--accent-color);
 }
 .tel-link {
@@ -177,6 +186,11 @@ button {
   color: #ffffff;
   background-color: #2196f3;
 }
+.portfolio-btn.bgblue {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .projects-title {
   font-weight: bold;
   font-size: 18px;
